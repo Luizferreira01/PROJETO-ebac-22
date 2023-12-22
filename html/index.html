@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Semi+Condensed:wght@600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="/imagem/logo de telefone.png" alt="logo de telefone">
+        <h1>Agenda De Contatos</h1>
+    </header>
+    <form id="contato">
+        <input type="text" id="Nome-Do-Contato" required placeholder="Nome Do Contato">
+        <input type="number" id="Numero-Do-Contato" required placeholder="Numero Do Contato">
+        <button type="submit">registrar</button>
+    </form>
+    <table cellspacing="0" >
+        <thead>
+            <tr>
+                <th>Nome Do Contato</th>
+                <th>Numero Do Contato</th>
+                <th>registrado?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>contato 1</td>
+                <td>12 997406062</td>
+                <td><img src="/imagem/confirmar.png" alt="emoji confirmado"</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>contato final</td>
+                <td>(00) 00000-0000</td>
+                <td><span class="registrando">registrado</span></td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="/js/main.js"></script>
+</div>
+</body>
+</html>
