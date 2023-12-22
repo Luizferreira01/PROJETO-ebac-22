@@ -1,4 +1,6 @@
 const form = document.getElementById('contato');
+const imgconfirmar = '<img src="./imagem/confirmar.png" alt="emoji registrando" />';
+const imgerro = '<img src="./imagem/erro.png" alt="emoji de erro" />';
 form.addEventListener('submit', function(e){
     e.preventDefault();
 
@@ -9,7 +11,7 @@ form.addEventListener('submit', function(e){
     let linha = '<tr>';
     linha += `<td>${inputNomeContato.value}</td>`;
     linha += `<td>${inputNumeroContato.value}</td>`;
-    linha += `<td>${inputNomeContato.vAlue  'registrando' : 'erro'}</td>`;
+    linha += `<td>${inputNomeContato.vAlue = "imgconfirmar"}</td>`;
     linha += '</tr>';
 
     const corpoTabela = document.querySelector('tbody');
