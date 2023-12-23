@@ -11,7 +11,7 @@ form.addEventListener('submit', function(e){
     let linha = '<tr>';
     linha += `<td>${inputNomeContato.value}</td>`;
     linha += `<td>${inputNumeroContato.value}</td>`;
-    linha += `<td>${inputNomeContato.vAlue = "confirmar"}</td>`;
+    linha += `<td>${imgconfirmar}</td>`;
     linha += '</tr>';
 
     const corpoTabela = document.querySelector('tbody');
