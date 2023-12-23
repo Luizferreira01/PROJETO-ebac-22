@@ -19,4 +19,6 @@ form.addEventListener('submit', function(e){
 
     inputNomeContato.value = '';
     inputNumeroContato.value = '';
+
+    alert(`Contato adicionado com sucesso: ${inputNomeContato.value} - Agenda adicionada com sucesso: ${inputNumeroContato.value}`);
 });
